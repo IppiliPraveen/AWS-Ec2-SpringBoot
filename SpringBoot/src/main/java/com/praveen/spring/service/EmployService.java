@@ -6,8 +6,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.praveen.spring.model.Employ;
-import com.praveen.spring.model.LogIn;
+import com.praveen.spring.entity.Employ;
+import com.praveen.spring.entity.LogIn;
 import com.praveen.spring.repository.EmployRepo;
 
 @Service
