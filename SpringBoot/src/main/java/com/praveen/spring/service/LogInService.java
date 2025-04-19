@@ -8,7 +8,7 @@ import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.praveen.spring.model.LogIn;
+import com.praveen.spring.entity.LogIn;
 import com.praveen.spring.repository.LoginRepo;
 
 
@@ -50,6 +50,7 @@ public class LogInService {
 
 	public void saveUser(LogIn login) {
 
+		login.setPassword(login.getPassword().substring(0,login.getPassword().indexOf(",")));
 		login.setAccess("normal");
 		loginRepo.save(login);
 	};

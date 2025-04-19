@@ -19,8 +19,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.praveen.spring.model.Employ;
-import com.praveen.spring.model.LogIn;
+import com.praveen.spring.entity.Employ;
+import com.praveen.spring.entity.LogIn;
 import com.praveen.spring.service.EmployService;
 import com.praveen.spring.service.LogInService;
 

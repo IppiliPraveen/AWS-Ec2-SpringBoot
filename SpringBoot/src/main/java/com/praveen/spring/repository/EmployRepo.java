@@ -6,8 +6,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.praveen.spring.model.Employ;
-import com.praveen.spring.model.Gender;
+import com.praveen.spring.entity.Employ;
+import com.praveen.spring.entity.Gender;
 
 @Repository
 public interface EmployRepo extends JpaRepository<Employ, String>{
